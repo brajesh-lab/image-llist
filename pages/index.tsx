@@ -3,6 +3,9 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { Card, Checkbox, Grid } from '@nextui-org/react';
+import ImageList from '@/components/ImageList'
+import Navbar from '@/components/Navbar';
+import Pagination from '@/components/Pagination';
 
 
 
@@ -26,8 +29,10 @@ export default function Home() {
 ]
   return (
     <>
-
-     {img.map((item, index) => (
+    <Navbar />
+    <ImageList />
+    <Pagination />
+     {/* {img.map((item, index) => (
      <div className='flex'>
        <Card css={{ p: "$6", mw: "400px" }}>
        <Card.Header>
@@ -44,7 +49,9 @@ export default function Home() {
 
    </Card>
    </div>
-     ))}
+     ))} */}
+
+
   
     </>
   )
