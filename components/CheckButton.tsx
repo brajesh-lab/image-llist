@@ -14,7 +14,7 @@
   }
   ```
 */
-export default function Example() {
+export default function CheckButton() {
     return (
       <fieldset className="space-y-5">
         <legend className="sr-only">Notifications</legend>
@@ -25,7 +25,7 @@ export default function Example() {
               aria-describedby="comments-description"
               name="comments"
               type="checkbox"
-              className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded"
+              className="focus:ring-teal-500 h-4 w-4 text-teal-600 border-gray-300 rounded"
             />
           </div>
           <div className="ml-3 text-sm">
