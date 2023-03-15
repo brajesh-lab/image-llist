@@ -14,9 +14,9 @@
   }
   ```
 */
-export default function Example(props) {
+export default function Example() {
   console.log("After Image listing")
-  console.log("props", props)
+  
     return (
       <fieldset className="space-y-5">
         <legend className="sr-only">Notifications</legend>
@@ -26,7 +26,6 @@ export default function Example(props) {
               id="comments"
               aria-describedby="comments-description"
               name="comments"
-              value={props.id}
               type="checkbox"
               className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded"
             />
