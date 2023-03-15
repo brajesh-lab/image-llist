@@ -69,7 +69,8 @@ const products = [
     // More products...
   ]
   
-  export default function Example() {
+  export default function Example(props) {
+    console.log("Hello Brajesh")
     return (
       <div className="bg-white">
         <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -97,7 +98,8 @@ const products = [
                   </div>
                 </div>
                 <div className="mt-6">
-                  <CheckButton />
+                  <CheckButton
+                  values = {props} />
                 </div>
               </div>
             ))}
@@ -106,4 +108,3 @@ const products = [
       </div>
     )
   }
-  
