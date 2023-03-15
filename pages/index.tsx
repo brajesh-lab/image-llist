@@ -6,6 +6,8 @@ import { Card, Checkbox, Grid } from '@nextui-org/react';
 import ImageList from '@/components/ImageList'
 import Navbar from '@/components/Navbar';
 import Pagination from '@/components/Pagination';
+import Dropdown from '@/components/FilterComponent/LocationHierarchy'
+import Filter from '@/components/FilterComponent/Filter';
 
 
 
@@ -30,6 +32,7 @@ export default function Home() {
   return (
     <>
     <Navbar />
+    <Filter />
     <ImageList />
     <Pagination />
      {/* {img.map((item, index) => (
