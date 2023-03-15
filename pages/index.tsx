@@ -6,7 +6,8 @@ import { Card, Checkbox, Grid } from '@nextui-org/react';
 import ImageList from '@/components/ImageList'
 import Navbar from '@/components/Navbar';
 import Pagination from '@/components/Pagination';
-import ImageCarousel from '@/components/ImageCarousel';
+
+
 
 const inter = Inter({ subsets: ['latin'] })
 
